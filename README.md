@@ -64,7 +64,7 @@ So **two blanks** can make the line break.
 
 <span id="Blockquotes">Blockquotes</span>
 ---
-- Use **>**.
+- Use **>**.  
 \>This is a quote (ctrl+q) 
 1  
 2
