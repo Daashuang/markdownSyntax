@@ -10,6 +10,8 @@ This is a quick guide to some common Markdown syntax.
 [Link & Image](#Link)  
 [Code](#Code)  
 [Table](#Table)  
+[mathematical formula](#mathematical)
+
 
 <span id="Headling">Headling</span>
 ---
@@ -312,6 +314,32 @@ name                                       | country   |
 ------------------------------------------ | :-------: |
 [google](https://www.google.com/ "Google") | worldwide |
 [baidu](https://www.baidu.com/ "Baidu")    | China     |
+
+<span id="mathematical">mathematical formula</span>
+---
+- First write this:
+```
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+```  
+- Then, **$$Tex_formula$$** shows a big formula and it will on a line by itself. **\\(Tex_formula\\)** shows a formula that can be in a santence.  
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+```
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+```
+
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+```
+This is a sentence. The formula is:\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\) , do you know this formula?
+```
+
+This is a sentence. The formula is:\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\) , do you know this formula?
 
 Markdown is very easy to use if we use it frequently.   
 Last Word, GFM(Github Flavored Markdown) is a little bit different from the general markdown, like line breaks...But don't worry, We can fix it by google...
