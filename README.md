@@ -317,6 +317,15 @@ name                                       | country   |
 
 <span id="mathematical">mathematical formula</span>
 ---
+- 1.Go to <http://latex.codecogs.com/> . 2. Type the formula. 3. Copy the formula picture link. 4. \!\[equation\](url) then it can show in the github markdown.
+
+```
+![equation](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+```
+
+![equation](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
+
+### The follow can display in none github markdown.  
 - First write this:
 ```
 <script type="text/javascript"
